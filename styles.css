@@ -3,3 +3,18 @@
 @media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:75px;gap:0}.hero-art{height:340px;margin-top:20px}.orbit-one{width:310px;height:205px}.orbit-two{width:240px;height:320px}.core{width:165px;height:165px}.core-symbol{font-size:43px}.about-grid,.skills-grid{grid-template-columns:1fr;gap:25px}.section-heading{display:block}.section-heading p{margin-top:16px}.project-grid{grid-template-columns:1fr 1fr}.project-card:last-child{grid-column:span 2}.contact-inner{align-items:start;flex-direction:column}.contact-links{width:100%}}
 @media(max-width:560px){.topbar{height:72px;padding:0 20px}.menu-toggle{display:block}.nav{display:none;position:absolute;z-index:5;top:72px;left:0;right:0;background:#111a2d;padding:20px;flex-direction:column;align-items:stretch;gap:18px;border-bottom:1px solid var(--line)}.nav.open{display:flex}.nav-contact{text-align:center}.section{padding-left:20px;padding-right:20px}.hero{min-height:0;padding-top:75px;padding-bottom:65px}h1{font-size:58px;letter-spacing:-3.8px}.hero-lede{font-size:14px}.hero-art{height:300px}.orbit-one{width:270px;height:175px}.orbit-two{width:210px;height:280px}.core{width:145px;height:145px}.tag-one{left:0;top:35px}.tag-two{right:0;bottom:36px;font-size:7px}.spark-one{right:20px}.spark-two{left:25px}.about-section,.work-section,.skills-section{padding-top:75px;padding-bottom:80px}.about-grid h2,.section-heading h2,.skills-grid h2,.contact-inner h2{font-size:39px}.large-copy{font-size:17px}.project-grid{grid-template-columns:1fr}.project-card:last-child{grid-column:auto}.project-visual{height:180px}.contact-section{padding:65px 20px}.footer{padding:22px 20px;gap:15px;flex-wrap:wrap}.footer>span{order:3;width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+.profile-photo {
+    width: 320px;
+    height: 380px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 20px;
+    border: 1px solid #76e5df;
+    box-shadow: 0 0 35px #76e5df22;
+}
+
+.hero-art {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
